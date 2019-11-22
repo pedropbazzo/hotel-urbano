@@ -1,0 +1,23 @@
+.container {
+    margin-top: 20px;
+}
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+.weather-table {
+    table-layout: fixed;
+}
+
+.weather-table td,
+.weather-table th {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.weather-table .city-map,
+.weather-table .city-map > div {
+    height: 168px;
+    width: 100%;
+}
